@@ -9,12 +9,12 @@ module.exports = {
   ],
   theme: {
     colors: {
-      "primary": "#7FDCD7",
+      "primary": "#075A78",
       "background": "#0F2629",
       "background-light": "#205165",
       "background-card": "#16373C",
       "background-sec": "#5A62AF",
-      "text-hex": "#D9D9D9",
+      "white-hex": "#D9D9D9",
     },
     extend: {},
   },
