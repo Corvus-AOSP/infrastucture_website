@@ -12,5 +12,6 @@
   <Support />
   <Screenshots />
   <Team />
+  <devices></devices>
 </div>
 </template>
