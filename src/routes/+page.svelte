@@ -14,7 +14,7 @@
 				>What's New</button
 			>
 		</div>
-		<img src="https://ik.imagekit.io/corvus/crow.png?tr=w-400" alt="Corvus" />
+		<img src="https://ik.imagekit.io/corvus/crow.png?tr=w-400&ik-sdk-version=javascript-1.4.3&updatedAt=1677226946997" alt="Corvus" />
 	</div>
 	<Specials />
 	<Screenshots />
