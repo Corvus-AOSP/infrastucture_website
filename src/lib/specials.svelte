@@ -1,5 +1,5 @@
-<main class="mt-32 bg-light-black rounded-lg">
-	<div class="mx-64 py-8 flex items-center justify-end text-4xl font-bold">Specials</div>
+<main class="mt-32 py-16 bg-light-black rounded-lg">
+	<div class="mx-64 pb-8 flex items-center justify-end text-4xl font-bold">Specials</div>
 	<div class="flex items-center justify-center">
 		<div>
 			<div class="box-1 mx-1 p-5 my-2 relative bg-light-primary rounded-lg">
