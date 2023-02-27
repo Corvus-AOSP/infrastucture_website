@@ -9,7 +9,9 @@
 		<div>
 			<h1 class="text-7xl font-extrabold">GET THE RAVEN <br />UNLEASHED</h1>
 			<p class="text-2xl text-primary font-medium my-8">The Experience You Deserve</p>
-			<button class="bg-primary p-2 rounded-lg font-bold">Download Now!</button>
+			<a href="/devices"
+				><button class="bg-primary p-2 rounded-lg font-bold">Download Now!</button></a
+			>
 			<button class="border border-light-primary text-light-primary p-2 mx-3 rounded-lg font-bold"
 				>What's New</button
 			>
