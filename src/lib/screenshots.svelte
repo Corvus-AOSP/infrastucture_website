@@ -64,10 +64,10 @@
 	];
 </script>
 
-<main class="py-16">
-  <div class="mx-64 py-8 flex items-center justify-end text-4xl font-bold">Screenshots</div>
+<main id="screenshots" class="py-16">
+  <div class="lg:mx-64 mx-2 pb-8 flex items-center justify-end lg:text-4xl text-2xl font-bold">Screenshots</div>
 	<div class="overflow-hidden">
-		<div class="swiper-container cont" bind:this={container}>
+		<div class="swiper-container lg:cont" bind:this={container}>
 			<div class="swiper-wrapper">
 				{#each items as item}
 					<div class="swiper-slide">
@@ -81,7 +81,7 @@
 
 <style>
 	.cont {
-		width: 50vw;
+		width: clamp(13rem, 50vw, 50rem);
 		margin: 0 auto;
 		overflow: hidden;
 	}
