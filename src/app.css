@@ -6,4 +6,5 @@
 :root {
     background-color: #0B0B0E;
     font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
 }
