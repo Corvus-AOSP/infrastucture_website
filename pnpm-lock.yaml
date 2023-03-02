@@ -19,7 +19,6 @@ specifiers:
   prettier-plugin-svelte: ^2.8.1
   svelte: ^3.54.0
   svelte-check: ^3.0.1
-  svelte-scrollto: ^0.2.0
   swiper: 6.7.1
   tailwindcss: ^3.2.7
   tslib: ^2.4.1
@@ -31,7 +30,6 @@ dependencies:
   '@types/glider-js': 1.7.8
   ci: 2.2.0
   glider-js: 1.7.8
-  svelte-scrollto: 0.2.0
   swiper: 6.7.1
 
 devDependencies:
@@ -2154,15 +2152,10 @@ packages:
       typescript: 4.9.5
     dev: true
 
-  /svelte-scrollto/0.2.0:
-    resolution: {integrity: sha512-l4K2E4jr6dXCODtZDCkpp/TzknVVoq8gecHM0UOOmihvLosczdyLuyDUhZ+U2HkhLWi7nnimuOstZSFKtXSpmA==}
-    dependencies:
-      svelte: 3.55.1
-    dev: false
-
   /svelte/3.55.1:
     resolution: {integrity: sha512-S+87/P0Ve67HxKkEV23iCdAh/SX1xiSfjF1HOglno/YTbSTW7RniICMCofWGdJJbdjw3S+0PfFb1JtGfTXE0oQ==}
     engines: {node: '>= 8'}
+    dev: true
 
   /swiper/6.7.1:
     resolution: {integrity: sha512-r5Xr0WdQ7CuQiomb/8A+j9QsIl2ClQk5KoJU1jWp8/OP4OS/0ZJf5tKLWlJMPRHafy1oRsmv1lSSyzJad6XoRg==}

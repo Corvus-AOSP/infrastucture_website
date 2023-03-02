@@ -37,7 +37,6 @@
 		"@types/glider-js": "^1.7.8",
 		"ci": "^2.2.0",
 		"glider-js": "^1.7.8",
-		"svelte-scrollto": "^0.2.0",
 		"swiper": "6.7.1"
 	}
 }
