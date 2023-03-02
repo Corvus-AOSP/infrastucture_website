@@ -5,8 +5,13 @@
 </script>
 
 <main id="hero" class="w-screen pt-56">
-	<div class="flex item-center gap-2 mx-2 justify-around">
-		<div>
+	<div class="flex item-center gap-2 lg:justify-around justify-between">
+		<img
+			class="block lg:hidden"
+			src="https://ik.imagekit.io/corvus/crow2.png?tr=w-130&ik-sdk-version=javascript-1.4.3&updatedAt=1677731135645"
+			alt="Corvus"
+		/>
+		<div class="mx-2">
 			<h1 class="lg:text-7xl text-3xl font-extrabold">GET THE RAVEN <br />UNLEASHED</h1>
 			<p class="lg:text-2xl text-primary font-medium lg:my-8 my-2">The Experience You Deserve</p>
 			<a href="/devices"
@@ -20,7 +25,8 @@
 			>
 		</div>
 		<img
-			src="https://ik.imagekit.io/corvus/crow.png?tr=w-150,h-130&ik-sdk-version=javascript-1.4.3&updatedAt=1677226946997"
+			class="hidden lg:block"
+			src="https://ik.imagekit.io/corvus/crow.png?tr=w-400&ik-sdk-version=javascript-1.4.3&updatedAt=1677226946997"
 			alt="Corvus"
 		/>
 	</div>
