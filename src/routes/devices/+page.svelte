@@ -13,11 +13,26 @@
 </script>
 
 <main class="mt-48 mb-12 lg:mx-32 mx-8">
-	<h1 class="lg:text-5xl text-3xl font-bold">Downloads</h1>
-	<h2 class="lg:text-2xl text-xl font-bold my-2">DeviceList</h2>
+	<h1 class="lg:text-5xl text-3xl font-bold text-center">Downloads</h1>
+	<h2 class="lg:text-2xl text-xl font-bold my-2">Devices:</h2>
+	{#if deviceList.length === 0}
+		<h3 class="lg:text-xl text-lg font-bold my-2">Loading...</h3>
+	{/if}
+	<div class="flex lg:gap-4 gap-2 flex-wrap">
+		{#each Object.entries(deviceList) as devices}
+			<a href={`#${devices[0]}`}><button class="p-2 bg-primary rounded-lg">{devices[0]}</button></a>
+		{/each}
+	</div>
+	<a href="#"
+		><button class="fixed lg:bottom-12 lg:right-12 bottom-6 right-6 p-2 rounded-full bg-primary">
+			<img src="https://ik.imagekit.io/corvus/arrow.svg" width="20px" alt="arrow" />
+		</button></a
+	>
 	<div>
 		{#each Object.entries(deviceList) as devices}
-			<h1 class="font-bold text-2xl mt-12">{devices[0]}</h1>
+			<h1 id={devices[0]} class="font-bold text-2xl pt-12 scroll-pt-32 snap-y">
+				{devices[0]}
+			</h1>
 			<div class="rounded-lg my-2 grid lg:grid-cols-5 lg:gap-8 gap-1">
 				{#each Object.entries(devices[1]) as device}
 					<div
