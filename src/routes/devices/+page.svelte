@@ -33,7 +33,7 @@
 			<h1 id={devices[0]} class="font-bold text-2xl pt-12 scroll-pt-32 snap-y">
 				{devices[0]}
 			</h1>
-			<div class="rounded-lg my-2 grid lg:grid-cols-5 lg:gap-8 gap-1">
+			<div class="rounded-lg my-2 grid 2xl:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-8">
 				{#each Object.entries(devices[1]) as device}
 					<div
 						class="bg-light-black p-5 rounded-lg lg:my-5 my-2 flex flex-col justify-between items-left"
