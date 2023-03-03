@@ -64,19 +64,23 @@
 	];
 </script>
 
-<main id="screenshots" class="py-16">
-  <div class="lg:mx-64 mx-2 pb-8 flex items-center justify-end lg:text-4xl text-2xl font-bold">Screenshots</div>
-	<div class="overflow-hidden">
-		<div class="swiper-container lg:cont" bind:this={container}>
-			<div class="swiper-wrapper">
-				{#each items as item}
-					<div class="swiper-slide">
-						<img class="rounded-lg" src={item.image} alt="Corvus" width="250px" />
-					</div>
-				{/each}
+<main id="screenshots" class="pt-32">
+	<section class="py-16 bg-light-black rounded-lg">
+		<div class="lg:mx-64 mx-2 pb-8 flex items-center justify-end lg:text-4xl text-2xl font-bold">
+			Screenshots
+		</div>
+		<div class="overflow-hidden">
+			<div class="swiper-container lg:cont" bind:this={container}>
+				<div class="swiper-wrapper">
+					{#each items as item}
+						<div class="swiper-slide">
+							<img class="rounded-lg" src={item.image} alt="Corvus" width="250px" />
+						</div>
+					{/each}
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </main>
 
 <style>
