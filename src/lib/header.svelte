@@ -1,13 +1,39 @@
+<script>
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+
+	function toggleMenu() {
+		dispatch('toggleMenu', {});
+	}
+</script>
+
 <main>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+		integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
+		crossorigin="anonymous"
+	></script>
+
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+		crossorigin="anonymous"
+	/>
 	<div
-		class="flex lg:flex-row item-center rounded-lg flex-col gap-2 w-screen fixed top-0 left-0 justify-between lg:px-24 lg:py-8 py-4 items-center"
+		class="flex item-center rounded-lg gap-2 w-screen fixed top-0 left-0 justify-between lg:px-24 px-8 lg:py-8 py-4 items-center"
 		style="backdrop-filter: blur(10px); background-color: rgba(33, 33, 43, 0.5);"
 	>
 		<a href={'/#hero'} class="flex gap-4 items-center">
-			<img src="https://ik.imagekit.io/corvus/Corvus_Logo.svg" alt="Corvus Logo" width="50px" />
-			<h1 class="font-extrabold text-4xl cursor-pointer">Corvus-Aosp</h1>
+			<img
+				src="https://ik.imagekit.io/corvus/Corvus_Logo.svg"
+				alt="Corvus Logo"
+				class="lg:w-12 w-8"
+			/>
+			<h1 class="font-extrabold lg:text-4xl text-xl cursor-pointer">Corvus-Aosp</h1>
 		</a>
-		<div class="flex justify-evenly font-semibold items-center gap-2 lg:gap-16">
+		<div class="lg:flex hidden justify-evenly font-semibold items-center gap-16">
 			<a href={'/#specials'} class="header">Specials</a>
 			<a href={'/#screenshots'} class="header">Screenshots</a>
 			<a href={'/#hero'} class="header">Team</a>
@@ -15,6 +41,9 @@
 				>What's New</button
 			>
 		</div>
+		<button class="lg:hidden" on:click={() => toggleMenu()}
+			><i class="fas fa-bars text-2xl" /></button
+		>
 	</div>
 </main>
 
