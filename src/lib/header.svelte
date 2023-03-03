@@ -35,8 +35,8 @@
 		</a>
 		<div class="lg:flex hidden justify-evenly font-semibold items-center gap-16">
 			<a href={'/#specials'} class="header">Specials</a>
-			<a href={'/#screenshots'} class="header">Screenshots</a>
 			<a href={'/#team'} class="header">Team</a>
+			<a href={'/#screenshots'} class="header">Screenshots</a>
 			<button class="lg:px-4 lg:py-2 px-2 py-1 bg-primary rounded-lg text-sm lg:text-lg"
 				>What's New</button
 			>
