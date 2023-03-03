@@ -33,7 +33,7 @@
 			/>
 			<h1 class="font-extrabold lg:text-4xl text-xl cursor-pointer">Corvus-Aosp</h1>
 		</a>
-		<div class="lg:flex hidden justify-evenly font-semibold items-center gap-16">
+		<div class="lg:flex hidden justify-evenly font-semibold items-center gap-16 text-lg">
 			<a href={'/#specials'} class="header">Specials</a>
 			<a href={'/#team'} class="header">Team</a>
 			<a href={'/#screenshots'} class="header">Screenshots</a>
