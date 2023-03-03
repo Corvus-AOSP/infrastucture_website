@@ -30,7 +30,7 @@
 	];
 </script>
 
-<main id="team" class="mb-12 lg:pt-32 pt-12 lg:mx-64 mx-8">
+<main id="team" class="lg:pt-32 lg:mb-32 mb-16 pt-16 xl:mx-32 2xl:mx-64 lg:mx-16 mx-8">
 	<section>
 		<h1 class="lg:text-4xl text-2xl font-bold text-right">Team</h1>
 		<p class="lg:text-xl font-semibold text-right">Meet the team behind Corvus OS</p>

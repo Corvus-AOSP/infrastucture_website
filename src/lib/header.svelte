@@ -31,7 +31,7 @@
 				alt="Corvus Logo"
 				class="lg:w-12 w-8"
 			/>
-			<h1 class="font-extrabold lg:text-4xl text-xl cursor-pointer">Corvus-Aosp</h1>
+			<h1 class="font-extrabold xl:text-4xl lg:text-2xl text-xl cursor-pointer">Corvus-Aosp</h1>
 		</a>
 		<div class="lg:flex hidden justify-evenly font-semibold items-center gap-16 text-lg">
 			<a href={'/#specials'} class="header">Specials</a>

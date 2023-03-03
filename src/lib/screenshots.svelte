@@ -64,9 +64,11 @@
 	];
 </script>
 
-<main id="screenshots" class="pt-32">
+<main id="screenshots">
 	<section class="py-16 bg-light-black rounded-lg">
-		<div class="lg:mx-64 mx-2 pb-8 flex items-center justify-end lg:text-4xl text-2xl font-bold">
+		<div
+			class="xl:mx-32 2xl:mx-64 lg:mx-16 mx-8 pb-8 flex items-center justify-end lg:text-4xl text-2xl font-bold"
+		>
 			Screenshots
 		</div>
 		<div class="overflow-hidden">
