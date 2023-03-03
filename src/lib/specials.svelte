@@ -1,6 +1,10 @@
 <main id="specials" class="lg:pt-32 pt-16 w-screen">
 	<div class="py-16 bg-light-black rounded-lg">
-		<div class="lg:mx-64 mx-8 pb-8 flex items-center justify-end lg:text-4xl text-2xl font-bold">Specials</div>
+		<div
+			class="xl:mx-32 2xl:mx-64 lg:mx-16 mx-8 pb-8 flex items-center justify-end lg:text-4xl text-2xl font-bold"
+		>
+			Specials
+		</div>
 		<div class="flex items-center justify-center">
 			<div>
 				<div class="box-1 mx-1 p-5 my-2 relative bg-light-primary rounded-lg">
@@ -21,9 +25,7 @@
 				</div>
 				<div class="box-1 mx-1 relative p-5 my-2 bg-light-primary rounded-lg">
 					<div class="circle rounded-full bg-primary" />
-					<div class="absolute bottom-5 lg:text-3xl text-lg font-bold text-primary">
-						Raven Desk
-					</div>
+					<div class="absolute bottom-5 lg:text-3xl text-lg font-bold text-primary">Raven Desk</div>
 				</div>
 			</div>
 		</div>
