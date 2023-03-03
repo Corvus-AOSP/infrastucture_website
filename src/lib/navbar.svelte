@@ -16,7 +16,7 @@
 			<button on:click={() => toggleMenu()}><i class="fas fa-times text-4xl" /></button>
 			<a href={'/#specials'}><button on:click={() => toggleMenu()}>Specials</button></a>
 			<a href={'/#screenshots'}><button on:click={() => toggleMenu()}>Screenshots</button></a>
-			<a href={'/#'}><button on:click={() => toggleMenu()}>Team</button></a>
+			<a href={'/#team'}><button on:click={() => toggleMenu()}>Team</button></a>
 			<button>What's New</button>
 		</div>
 	</div>
